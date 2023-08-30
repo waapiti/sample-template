@@ -1,0 +1,151 @@
+{
+    "vars": {
+        "theme": {
+            "type": "object",
+            "value": "{\"primary\": \"#FF7200\",\"secondary\": \"#FFFFFF\",\"background\": \"#000000\"}",
+            "name": "Theme",
+            "optional": true,
+            "properties": {
+                "primary": {
+                    "type": "color",
+                    "name": "Primary color",
+                    "optional": false
+                },
+                "secondary": {
+                    "type": "color",
+                    "name": "Secondary color",
+                    "optional": false
+                },
+                "background": {
+                    "type": "color",
+                    "name": "Background color",
+                    "optional": false
+                }
+            }
+        },
+        "logo": {
+            "type": "image",
+            "value": "assets/img/logo.png",
+            "name": "Brand logo",
+            "optional": false
+        },
+        "backgroundImage": {
+            "type": "image",
+            "value": "assets/img/background.png",
+            "name": "Background image",
+            "optional": false
+        },
+        "backgroundVideo": {
+            "type": "video",
+            "value": "",
+            "name": "Background video",
+            "optional": true
+        },
+        "text1": {
+            "type": "object",
+            "value": "{\"text\": \"Flash Offer\", \"size\": 4 }",
+            "name": "First text",
+            "optional": true,
+            "properties": {
+                "text": {
+                    "type": "text",
+                    "name": "Text",
+                    "optional": true
+                },
+                "size": {
+                    "type": "number",
+                    "name": "Size",
+                    "optional": true,
+                    "number": {
+                        "min": 0,
+                        "max": 10,
+                        "step": 0.1,
+                        "slider": true
+                    }
+                }
+            }
+        },
+        "text2": {
+            "type": "object",
+            "value": "{\"text\": \"Color & Hairstyle\", \"size\": 8 }",
+            "name": "First text",
+            "optional": true,
+            "properties": {
+                "text": {
+                    "type": "text",
+                    "name": "Text",
+                    "optional": true
+                },
+                "size": {
+                    "type": "number",
+                    "name": "Size",
+                    "optional": true,
+                    "number": {
+                        "min": 0,
+                        "max": 15,
+                        "step": 0.1,
+                        "slider": true
+                    }
+                }
+            }
+        },
+        "text3": {
+            "type": "object",
+            "value": "{\"text\": \"Monday and Tuesday\", \"size\": 4 }",
+            "name": "First text",
+            "optional": true,
+            "properties": {
+                "text": {
+                    "type": "text",
+                    "name": "Text",
+                    "optional": true
+                },
+                "size": {
+                    "type": "number",
+                    "name": "Size",
+                    "optional": true,
+                    "number": {
+                        "min": 0,
+                        "max": 10,
+                        "step": 0.1,
+                        "slider": true
+                    }
+                }
+            }
+        },
+        "text4": {
+            "type": "object",
+            "value": "{\"text\": \"The deal is not cumulative with other promotions\", \"size\": 1.5 }",
+            "name": "First text",
+            "optional": true,
+            "properties": {
+                "text": {
+                    "type": "text",
+                    "name": "Text",
+                    "optional": true
+                },
+                "size": {
+                    "type": "number",
+                    "name": "Size",
+                    "optional": true,
+                    "number": {
+                        "min": 0,
+                        "max": 10,
+                        "step": 0.1,
+                        "slider": true
+                    }
+                }
+            }
+        }
+    },
+    "config": {
+        "tplBaseVersion": 5,
+        "type": "template",
+        "title": "General v5 Image",
+        "duration": 35,
+        "defaultPreviewOrientation": "landscape",
+        "responsive": true,
+        "scaledPreview": true,
+        "screenshot": "thumbnail"
+    }
+}
